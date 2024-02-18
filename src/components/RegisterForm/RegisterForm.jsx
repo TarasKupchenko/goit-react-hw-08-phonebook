@@ -45,7 +45,12 @@ export const RegisterForm = () => {
       </label>
       <label className={css.label}>
         <span>Password</span>
-        <input type="password" name="password" required />
+        <input
+          type="password"
+          name="password"
+          placeholder="********"
+          required
+        />
       </label>
       <button type="submit" disabled={isLoading}>
         Register
